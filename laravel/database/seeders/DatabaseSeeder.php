@@ -47,24 +47,6 @@ class DatabaseSeeder extends Seeder
             'name' => 'Closed/Delivered',
         ]);
 
-        Product::create([
-            'name' => 'krekls',
-            'image' => 'https://i.imgur.com/frhnBT1.png',
-            'type_id' => 1,
-            'price' => '32.00',
-        ]);
-
-        Product::create([
-            'name' => 'Krūze',
-            'image' => 'https://img.muji.net/img/item/4547315873913_1260.jpg',
-            'type_id' => 2,
-            'price' => '10.00',
-        ]);
-
-        Symbol::create([
-            'image' => 'https://cdn-icons-png.flaticon.com/512/91/91012.png',
-        ]);
-
         Navigation::create([
             'name' => 'Home',
             'link' => '/',
@@ -85,20 +67,6 @@ class DatabaseSeeder extends Seeder
             'name' => 'Cart',
             'link' => '/cart',
             'position' => 1,
-        ]);
-
-        Product::create([
-            'name' => 'T-shirt',
-            'image' => 'https://i.imgur.com/frhnBT1.png',
-            'type_id' => 1,
-            'price' => '30.00',
-        ]);
-
-        Product::create([
-            'name' => 'Cup',
-            'image' => 'https://img.muji.net/img/item/4547315873913_1260.jpg',
-            'type_id' => 2,
-            'price' => '10.00',
         ]);
 
         Navigation::create([
